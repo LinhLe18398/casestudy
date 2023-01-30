@@ -1,0 +1,74 @@
+.head{
+    display: flex;
+    justify-content: right;
+    padding-right: 150px;
+
+}
+.img1{
+    margin-right: 600px;
+
+}
+.img1a{
+    width: 180px;
+}
+
+.image-carousel {
+    background-size:     cover;              
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.image1{
+    background-image: url("./top-carousel-esports.f501233e.jpg");
+}
+
+
+.image2{
+    background-image: url("./top-carousel-aov.32f1caee.jpg");
+}
+
+
+.image3{
+    background-image: url("./top-carousel-bns.98d7d284.jpg");
+}
+
+.min-vh-75{
+    min-height: 75vh !important;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* .container text-center{
+    display: flex;
+    justify-content: space-around;
+} */
+
+ .slider {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    height: 50vh;
+    /* color: white; */
+}
+/* .slider .slide {
+    padding: 0;
+} */
+
+.slider .slide .child-element {
+    transition: all .2s ease;
+    /* background: red; */
+    width: 50%;
+    height: 50%;
+    margin: 30px 0;
+    transition: all .5s;
+}
+.slider .slide.slick-center .child-element {
+    /* background: yellow; */
+    margin: 0;
+    height: 140px;
+    max-width: initial;
+}
